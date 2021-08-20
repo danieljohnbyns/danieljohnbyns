@@ -1,0 +1,25 @@
+{
+  "name": "danspotnytool",
+  "version": "1.0.0",
+  "description": "This is my Portfolio website",
+  "main": "index.js",
+  "dependencies": {
+    "nodemon": "^2.0.12",
+    "ws": "^8.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danspotnytool/Danspotnytool.git"
+  },
+  "author": "Danspotnytool",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danspotnytool/Danspotnytool/issues"
+  },
+  "homepage": "https://github.com/Danspotnytool/Danspotnytool#readme"
+}
