@@ -63,6 +63,8 @@ const observePostertext = new IntersectionObserver(posterTextObserved, {
 observePostertext.observe(posterText);
 
 
+
+
 const areasToBeObserved = document.querySelectorAll('.area:not(#experiences)');
 const partInputs = document.querySelectorAll('.options label:not([for="experiencesPart"]) ~ .partInput');
 for (let i = 0; i < areasToBeObserved.length; i++) {
@@ -108,24 +110,6 @@ for (let i = 0; i < areasToBeObserved.length; i++) {
         });
         observeElement.observe(element);
     };
-};
-
-
-
-{
-    const connect = () => {
-        const ws = new WebSocket('ws://localhost:5500');
-
-        ws.onopen = () => {
-            console.log('Connected to the server');
-        };
-        ws.onclose = () => {
-            console.error('Disconnected from the server');
-            connect();
-            console.log('reconnecting...');
-        };
-    };
-    connect();
 };
 
 
@@ -219,6 +203,27 @@ for (let i = 0; i < certificatesCard.length; i++) {
             certificatesInput[i].checked = true;
         };
     };
+};
+
+
+
+{
+    const connect = () => {
+        const ws = new WebSocket('ws://localhost:5500');
+
+        ws.onopen = () => {
+            console.log('Connected to the server');
+        };
+        ws.onclose = () => {
+            console.error('Disconnected from the server');
+            connect();
+            console.log('reconnecting...');
+        };
+    };
+    let url = location.href;
+    url = url.replace('http', 'ws');
+    console.log(url);
+    connect();
 };
 
 
