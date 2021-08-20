@@ -215,7 +215,7 @@ for (let i = 0; i < certificatesCard.length; i++) {
         url = url.slice(0, -1);
         url = url + ':5500';
         console.log(url);
-        const ws = new WebSocket('ws://localhost:5500');
+        const ws = new WebSocket(url);
         console.log(ws.url);
         ws.onopen = () => {
             console.log('Connected to the server');
