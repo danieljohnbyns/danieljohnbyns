@@ -210,6 +210,7 @@ for (let i = 0; i < certificatesCard.length; i++) {
 {
     const connect = () => {
         let url = location.href;
+        url = url.replace('https', 'ws');
         url = url.replace('http', 'ws');
         url = url.slice(0, -1);
         url = url + ':5500';
