@@ -209,20 +209,13 @@ for (let i = 0; i < certificatesCard.length; i++) {
 
 {
     const connect = () => {
-        let url = location.href;
-        url = url.replace('https', 'ws');
-        url = url.replace('http', 'ws');
-        url = url.slice(0, -1);
-        url = url + ':5500';
-        console.log(url);
-        const ws = new WebSocket(url);
-        console.log(ws.url);
+        const ws = new WebSocket(`ws://localhost:5500`);
         ws.onopen = () => {
             console.log('Connected to the server');
         };
         ws.onclose = () => {
             console.error('Disconnected from the server');
-            connect();
+            // connect();
             console.log('reconnecting...');
         };
     };
