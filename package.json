@@ -2,12 +2,12 @@
   "name": "danspotnytool",
   "version": "1.0.0",
   "description": "My portfolio website",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Daniel John Baynosa",
   "license": "ISC",
   "dependencies": {
     "ws": "^8.2.0"

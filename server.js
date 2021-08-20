@@ -27,6 +27,7 @@ const visitorCounts = [
 let currentVisitors = 0;
 
 
+
 // Template for a message
 class Message {
     constructor(type, contents) {
