@@ -206,20 +206,3 @@ for (let i = 0; i < certificatesCard.length; i++) {
 };
 
 
-
-{
-    const connect = () => {
-        const ws = new WebSocket(`ws://localhost:5500`);
-        ws.onopen = () => {
-            console.log('Connected to the server');
-        };
-        ws.onclose = () => {
-            console.error('Disconnected from the server');
-            // connect();
-            console.log('reconnecting...');
-        };
-    };
-    connect();
-};
-
-
