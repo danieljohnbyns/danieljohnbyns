@@ -41,7 +41,7 @@ app.locals.port = socketPort;
 // routes
 app.get('/', (req, res) => {
     const port = socketPort;
-    console.log('user');
+    console.log(`User : ${port}`);
     res.render('index'), {
         port: port,
         trylang: ''
