@@ -206,26 +206,3 @@ for (let i = 0; i < certificatesCard.length; i++) {
 };
 
 
-{
-    let location = window.location;
-    let newLocation = location.hostname; // localhost
-    let port = parseInt(socketPort); // 6600
-    let newUri;
-    if (location.protocol === "https:") {
-        newUri = "wss:";
-    } else {
-        newUri = "ws:";
-    };
-    newUri += `//${newLocation}:${port}`;  // ws://localhost:6600
-
-    console.log(newUri);
-    const ws = new WebSocket(newUri);
-
-    ws.onopen = (ws) => {
-        console.log('connected to the server');
-    };
-
-    ws.onclose = () => {
-        console.log('disconnected from the server');
-    };
-};

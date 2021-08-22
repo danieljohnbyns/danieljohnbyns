@@ -3,15 +3,6 @@ const favicon = require('serve-favicon');
 const path = require('path');
 const app = express();
 
-// set port
-const expressPort = process.env.PORT || 5500;
-const socketPort = parseInt(expressPort) + 1100;
-
-
-
-const WebSocketServer = require('ws').Server;
-const wss = new WebSocketServer({ port: socketPort });
-
 
 
 // uses
@@ -33,8 +24,6 @@ function getWebSocketPort(req, res, next) {
     req.webSocketPort = 'socketPort';
     next();
 };
-app.locals.socketPort = socketPort;
-app.locals.port = socketPort;
 
 
 
@@ -42,10 +31,7 @@ app.locals.port = socketPort;
 app.get('/', (req, res) => {
     const port = socketPort;
     console.log(`User : ${port}`);
-    res.render('index'), {
-        port: port,
-        trylang: ''
-    };
+    res.render('index');
 });
 
 app.get('/images', (req, res) => {
@@ -59,12 +45,3 @@ app.listen(expressPort, () => {
 });
 
 
-
-console.log(`Web socket port is: ${socketPort}`);
-wss.on('connection', (ws) => {
-    console.log('hi');
-
-    ws.onclose = () => {
-        console.log('bye');
-    };
-});
