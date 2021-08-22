@@ -3,11 +3,13 @@ const favicon = require('serve-favicon');
 const path = require('path');
 const app = express();
 
+// port
+const expressPort = process.env.PORT || 5500;
+
 
 
 // uses
 app.use(express.urlencoded({extended: false}));
-app.use(getWebSocketPort);
 app.use(express.static(__dirname + '/public'));
 app.use(favicon(path.join(__dirname + '/public/images/favicon.ico')));
 
@@ -20,17 +22,12 @@ app.set('views', path.join(__dirname, 'public'));
 
 
 // middlewares
-function getWebSocketPort(req, res, next) {
-    req.webSocketPort = 'socketPort';
-    next();
-};
 
 
 
 // routes
 app.get('/', (req, res) => {
-    const port = socketPort;
-    console.log(`User : ${port}`);
+    console.log('user index');
     res.render('index');
 });
 
