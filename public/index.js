@@ -209,7 +209,7 @@ for (let i = 0; i < certificatesCard.length; i++) {
 {
     let location = window.location;
     let newLocation = location.hostname; // localhost
-    let port = parseInt(location.port) + 1100; // 6600
+    let port = parseInt(socketPort); // 6600
     let newUri;
     if (location.protocol === "https:") {
         newUri = "wss:";
@@ -217,7 +217,8 @@ for (let i = 0; i < certificatesCard.length; i++) {
         newUri = "ws:";
     };
     newUri += `//${newLocation}:${port}`;  // ws://localhost:6600
-    
+
+    console.log(newUri);
     const ws = new WebSocket(newUri);
 
     ws.onopen = (ws) => {
