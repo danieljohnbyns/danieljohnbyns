@@ -9,8 +9,8 @@ const socketPort = parseInt(expressPort) + 1100;
 
 
 
-const WebSocketServer = require('ws').Server;
-const wss = new WebSocketServer({port: socketPort});
+const { WebSocketServer } = require('ws').Server;
+const wss = new WebSocketServer({ port: socketPort });
 
 
 
