@@ -17,24 +17,25 @@ app.get('/', (req, res) => {
 
 app.listen(expressPort, () => {
     console.log(`App running on port: ${expressPort}`);
-
-    const socketPort = expressPort + 1100;
-    const WebSocketServer = require('ws').Server;
-    const wss = new WebSocketServer({port: socketPort});
-
-    console.log(`Web socket port is: ${socketPort}`);
-
-    wss.on('connection', (ws) => {
-        console.log('hi');
-
-
-        ws.onclose = () => {
-            console.log('bye');
-        };
-    });
 });
 
 app.set('view engine', 'ejs');
 
 
 
+
+
+const socketPort = parseInt(expressPort) + 1100;
+const WebSocketServer = require('ws').Server;
+const wss = new WebSocketServer({port: socketPort});
+
+console.log(`Web socket port is: ${socketPort}`);
+
+wss.on('connection', (ws) => {
+    console.log('hi');
+
+
+    ws.onclose = () => {
+        console.log('bye');
+    };
+});
