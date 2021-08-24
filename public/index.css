@@ -512,6 +512,31 @@ input[name="certificatesInput"]:checked {
         margin-top: -20px;
     }
 }
+@media screen and (max-width: 500px) {
+    #posterTextPanel {
+        font-size: 2rem;
+    }
+    #posterTextPanel span div {
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    #greetings {
+        font-size: 3.5rem;
+    }
+    #name {
+        font-size: 3.5rem;
+    }
+    #username {
+        font-size: 3rem;
+    }
+    #textCursor {
+        height: 3rem;
+        width: 0.5rem;
+        margin-left: 0.25rem;
+    }
+}
 @media screen and (max-width: 450px) {
     #verticalBanner {
         align-items: center;
@@ -528,6 +553,32 @@ input[name="certificatesInput"]:checked {
         height: 10px;
         width: 50px;
         margin-top: -25px;
+    }
+    #posterTextPanel {
+        font-size: 1.5rem;
+    }
+    #greetings {
+        font-size: 2rem;
+    }
+    #name {
+        font-size: 2rem;
+    }
+    #username {
+        font-size: 2.5rem;
+    }
+    #textCursor {
+        height: 2.75rem;
+        width: 0.25rem;
+    }
+    #certificates .panel {
+        min-width: 100%;
+    }
+    #certificates .panel div {
+        margin: 5%;
+    }
+    #certificates .panel div img {
+        min-width: 300px;
+        max-width: 90%;
     }
 }
 @media screen and (max-width: 360px) {
@@ -548,6 +599,10 @@ input[name="certificatesInput"]:checked {
     }
     #socials a img {
         width: 50%;
+    }
+    #certificates .panel div img {
+        min-width: 260px;
+        max-width: 90%;
     }
 }
 @media screen and (prefers-reduced-motion: reduce) {
