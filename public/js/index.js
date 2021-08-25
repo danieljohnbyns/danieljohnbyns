@@ -72,7 +72,11 @@
             if (entries.isIntersecting) {
                 partInputs[i].style.background = "var(--color)";
                 if (entries.target.id == 'home') {
-                    document.querySelector('#poster video').play();
+                    try {
+                        document.querySelector('#poster video').play();
+                    } catch (error) {
+                        console.log(error);
+                    };
                 };
             } else {
                 partInputs[i].style.background = "hsla(0, 0%, 100%, 0.5)";
