@@ -34,17 +34,45 @@ body {
 
 
 
+#headerPlace {
+    height: 75px;
+    width: 100%;
+    top: 0;
+}
+
 #header {
-    height: 80px;
+    height: 75px;
     width: 100%;
     top: 0;
     background: green;
-    position: fixed;
+    position: absolute;
+    transition: margin-top 0.5s;
+    z-index: 10;
 }
 
 
 
 #home {
-    height: 1000px;
+    height: 550px;
     background: blue;
+}
+
+
+
+#experiences {
+    height: 4000px;
+}
+
+
+
+#socials {
+    height: 1500px;
+    background: blue;
+}
+
+
+
+#contacts {
+    height: 500px;
+    background: red;
 }
