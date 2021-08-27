@@ -49,6 +49,11 @@ app.get('/about', (req, res) => {
     res.render('about');
 });
 
+app.get('/newIndex', (req, res) => {
+    console.log('user newIndex');
+    res.render('newIndex');
+});
+
 
 
 app.listen(expressPort, () => {

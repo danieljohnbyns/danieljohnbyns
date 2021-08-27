@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Light.ttf');
+}
+
+:root {
+    --color: black;
+    --backgroundColor: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    color: var(--color);
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--backgroundColor);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.area {
+    width: 100%;
+}
+
+
+
+#header {
+    height: 80px;
+    width: 100%;
+    top: 0;
+    background: green;
+    position: fixed;
+}
+
+
+
+#home {
+    height: 1000px;
+    background: blue;
+}
