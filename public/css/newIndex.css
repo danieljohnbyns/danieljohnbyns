@@ -11,6 +11,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
     color: var(--color);
 }
@@ -22,57 +23,193 @@ html {
 
 body {
     background: var(--backgroundColor);
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
 }
+
+
 
 .area {
     width: 100%;
+    position: relative;
+}
+.panel {
+    height: 100%;
+    width: 1400px;
+    max-width: 100%;
 }
 
 
 
-#headerPlace {
+#headerPlace1 {
     height: 75px;
     width: 100%;
     top: 0;
+}
+#headerPlace2 {
+    height: 0px;
+    width: 100%;
+    margin-top: -75px;
+    background: blue;
+    position: absolute;
+    z-index: 2;
 }
 
 #header {
     height: 75px;
     width: 100%;
     top: 0;
-    background: green;
-    position: absolute;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    border-bottom: solid 1px var(--color);
+    background: yellow;
+    position: static;
     transition: margin-top 0.5s;
     z-index: 10;
+}
+#logoCard {
+    height: 100%;
+    width: 200px;
+    min-width: 10%;
+    max-width: 20%;
+    float: left;
+    background: red;
+}
+#toOtherPages {
+    height: 100%;
+    width: 700px;
+    min-width: 60%;
+    max-width: 80%;
+    float: right;
+    background: green;
+}
+
+
+
+@media screen and (max-width: 550px){
+    #header {
+        padding: 0;
+    }
+    #logoCard {
+        width: 200px;
+        min-width: 10%;
+        max-width: 30%;
+    }
+    #toOtherPages {
+        width: 700px;
+        min-width: 60%;
+        max-width: 70%;
+    }
 }
 
 
 
 #home {
     height: 550px;
-    background: blue;
+    align-items: center;
+}
+#home .panel {
+    margin: auto;
+    position: relative;
+}
+#profileInformations {
+    height: 90%;
+    width: 42.5%;
+    top: 5%;
+    left: 7.5%;
+    border: solid 1px var(--color);
+    background: orange;
+    position: absolute;
+}
+#profileDiv {
+    width: 200px;
+    max-width: 30%;
+    top: 5%;
+    right: 10%;
+    border: solid 1px var(--color);
+    background: red;
+    position: absolute;
+}
+
+
+
+@media screen and (max-width: 550px){
+    #home {
+        height: 500px;
+    }
+    #profileInformations {
+        width: 90%;
+    }
+    #profileDiv {
+        width: 300px;
+        max-width: 40%;
+        left: 7.5%;
+    }
 }
 
 
 
 #experiences {
-    height: 4000px;
+    height: 800px;
+}
+#experiences .panel {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#experiencesPanel {
+    height: 100%;
+    width: 80%;
+    font-size: 0;
+}
+.experiencesTile {
+    height: 50%;
+    width: 100%;
+}
+.experienceCard {
+    height: 100%;
+    width: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.experience {
+    height: 500px;
+    max-height: 90%;
+    width: 500px;
+    max-width: 90%;
+    border: solid 1px var(--color);
+    background: red;
 }
 
 
-
 #socials {
-    height: 1500px;
-    background: blue;
+    height: 500px;
+}
+#socials .panel {
+    margin: auto;
+    font-size: 0;
+}
+.socials {
+    height: 100%;
+    width: 50%;
+    border-top: solid 1px var(--color);
+    display: inline-block;
+    background: green;
+}
+.socials.left {
+    border-right: solid 1px var(--color);
+}
+.socials.right {
+    border-left: solid 1px var(--color);
 }
 
 
 
 #contacts {
-    height: 500px;
+    height: 100px;
+}
+#contacts .panel {
+    margin: auto;
+    border-top: solid 1px var(--color);
     background: red;
 }
