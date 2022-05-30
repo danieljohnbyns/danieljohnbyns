@@ -27,7 +27,7 @@
 </details>
 
 <br>
-<p>My Website: <a>https://www.danspotnytool.ga/</a></p>
+<p>My Website: <a href="https://www.danspotnytool.ga/">www.danspotnytool.ga</a></p>
 
 
 <h2>My Stats</h2>
