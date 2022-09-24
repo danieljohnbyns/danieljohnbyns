@@ -13,7 +13,7 @@
 
 <details><summary>About Me</summary>
 
-- <img src="https://cdn.discordapp.com/attachments/964840807586746368/968883140225556530/866832264490909728.webp" height="15"> Grade 12 student at <a href="https://aics.edu.ph">Asian Institute of Computer Studies</a>
+- <img src="https://cdn.discordapp.com/attachments/964840807586746368/968883140225556530/866832264490909728.webp" height="15"> Freshmen  at <a href="https://www.cdmmis.com/">Colegio De Montalban</a>
 - <img src="https://cdn.discordapp.com/attachments/964840807586746368/968886338042626048/946252785903607858.webp" height="15"> 18 years old
 - <img src="https://cdn.discordapp.com/attachments/964840807586746368/968885900664766474/911877005581115422.webp" height="15"> Web Developer
 - <img src="https://media.discordapp.net/attachments/964840807586746368/968884535867617290/851461487498493952.png?width=86&height=86" height="15"> Average Discord.JS enjoyer <img src="https://c.tenor.com/epNMHGvRyHcAAAAS/gigachad-chad.gif" height="16">
