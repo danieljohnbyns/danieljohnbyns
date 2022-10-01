@@ -20,9 +20,9 @@
 
 </details>
 
-<details><summary>Social(s)</summary>
+<details><summary>Contacts(s)</summary>
 
-- <img src="https://cdn.discordapp.com/attachments/964840807586746368/968892501484265502/unknown.png?width=500&height=500" height="16"> Discord: <a href="https://discord.com/users/533577955662757900">Awin#5077</a>
+- <img src="https://cdn.discordapp.com/attachments/964840807586746368/968892501484265502/unknown.png?width=500&height=500" height="16"> Discord: <a href="https://discord.com/users/533577955662757900">Awiin#5077</a>
 
 </details>
 
