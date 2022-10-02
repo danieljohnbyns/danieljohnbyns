@@ -1,7 +1,7 @@
-<h1 align="center"><img src="https://avatars.githubusercontent.com/u/63223301?v=4" height="25"> <a href="https://www.danspotnytool.ga/">Danspotnytool</a></h1>
+<h1 align="center"><a href="https://www.danspotnytool.ga/">Danspotnytool</a></h1>
 
 <div align="center">
-<img src="https://discord.c99.nl/widget/theme-1/533577955662757900.png" height="70">
+<img src="https://discord.c99.nl/widget/theme-3/533577955662757900.png" height="70">
 </div>
 
 <h2>Introduction</h2>
