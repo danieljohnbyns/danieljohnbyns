@@ -1,4 +1,7 @@
-<h1 align="center"><a href="https://www.danspotnytool.ga/">Danspotnytool</a></h1>
+<h1 align="center">
+    <img src="./Assets/Logo Framed.svg" height="30" />
+    <a href="https://www.danspotnytool.ga/">Daniel John</a>
+</h1>
 
 <div align="center">
 <img src="https://discord.c99.nl/widget/theme-3/533577955662757900.png" height="70">
