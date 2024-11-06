@@ -30,22 +30,26 @@
         <li>
             <a href="https://github.com/Danspotnytool/tapang-music">Danspotnytool/tapang-music</a>
             <br />
-            <sub>Music Application Project for my Midterms Exam</sub>
+            <p>Music Application Project for my Midterms Exam</p>
         </li>
         <li>
             <a href="https://github.com/Danspotnytool/CdMSMS-ICS">Danspotnytool/CdMSMS-ICS</a>
             <br />
-            <sub>Colegio de Montalban Schedule Management System for the Institute of Computer Studies</sub>
+            <p>Colegio de Montalban Schedule Management System for the Institute of Computer Studies</p>
         </li>
         <li>
             <a href="https://github.com/Danspotnytool/Colegio-De-Montalban-Student-to-Student-Evaluation-System">Danspotnytool/Colegio-De-Montalban-Student-to-Student-Evaluation-System</a>
             <br />
-            <sub>Colegio de Montalban Student-to-Student Evaluation System</sub>
+            <p>Colegio de Montalban Student-to-Student Evaluation System</p>
         </li>
     </ul>
 	<br />
 	<br />
-    <p width="100%" align="center"><b>veni</b> <b>vidi</b> <b>vici</b></p>
-	<br />
 	<img width="100%" src="https://github-profile-trophy.vercel.app/?username=Danspotnytool&no-bg=true&no-frame=true&theme=darkhub" align="center"/>
+	<br />
+    <p width="100%" align="center">
+        <b>veni</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <b>vidi</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <b>vici</b>
+    </p>
 </div>
