@@ -45,7 +45,7 @@
     </ul>
 	<br />
 	<br />
-    <p align="center"><b>veni</b> <b>vidi</b> <b>vici</b></p>
+    <p width="100%" align="center"><b>veni</b> <b>vidi</b> <b>vici</b></p>
 	<br />
 	<img width="100%" src="https://github-profile-trophy.vercel.app/?username=Danspotnytool&no-bg=true&no-frame=true&theme=darkhub" align="center"/>
 </div>
