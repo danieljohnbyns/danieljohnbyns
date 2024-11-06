@@ -6,13 +6,20 @@
 	<br />
 	<br />
     <ul>
-        <li>Name: <b>Daniel John Baynosa</b></li>
-        <li>From: <b>Philippines</b></li>
-        <li>Age: <b>20</b></li>
-        <li>Contact: <b>+63 960 331 9317</b> / <b>danieljohnbyns@gmail.com</b></li>
-        <li>Occupation: <b>Student</b></li>
-        <li>Field: <b>Information Technology</b></li>
-        <li>Specialization: <b>Web Development</b></li>
+        <li>Name:<br /><b>Daniel John Baynosa</b></li>
+        <br />
+        <li>From:<br /><b>Philippines</b></li>
+        <br />
+        <li>Age:<br /><b>20</b></li>
+        <br />
+        <li>Contact:<br /><b>+63 960 331 9317</b> / <b>danieljohnbyns@gmail.com</b></li>
+        <br />
+        <li>Occupation:<br /><b>Student</b></li>
+        <br />
+        <li>Field:<br /><b>Information Technology</b></li>
+        <br />
+        <li>Specialization:<br /><b>Web Development</b></li>
+        <br />
     </ul>
 	<br />
 	<br />
