@@ -1,6 +1,7 @@
 <img src="./Assets/Banner.png" width="100%" alt="banner" border="0"/>
+<br />
+<br />
 <div>
-	<br />
 	<img width="40%" src="https://avatars.githubusercontent.com/u/63223301" align=right />
 	<img src="./Assets/About Me.png" width="50%" />
 	<br />
@@ -29,17 +30,14 @@
     <ul>
         <li>
             <a href="https://github.com/Danspotnytool/tapang-music">Danspotnytool/tapang-music</a>
-            <br />
             <p>Music Application Project for my Midterms Exam</p>
         </li>
         <li>
             <a href="https://github.com/Danspotnytool/CdMSMS-ICS">Danspotnytool/CdMSMS-ICS</a>
-            <br />
             <p>Colegio de Montalban Schedule Management System for the Institute of Computer Studies</p>
         </li>
         <li>
             <a href="https://github.com/Danspotnytool/Colegio-De-Montalban-Student-to-Student-Evaluation-System">Danspotnytool/Colegio-De-Montalban-Student-to-Student-Evaluation-System</a>
-            <br />
             <p>Colegio de Montalban Student-to-Student Evaluation System</p>
         </li>
     </ul>
