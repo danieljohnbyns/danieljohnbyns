@@ -30,15 +30,18 @@
     <ul>
         <li>
             <a href="https://github.com/Danspotnytool/tapang-music">Danspotnytool/tapang-music</a>
-            <p>Music Application Project for my Midterms Exam</p>
+            <br />
+            Music Application Project for my Midterms Exam
         </li>
         <li>
             <a href="https://github.com/Danspotnytool/CdMSMS-ICS">Danspotnytool/CdMSMS-ICS</a>
-            <p>Colegio de Montalban Schedule Management System for the Institute of Computer Studies</p>
+            <br />
+            Colegio de Montalban Schedule Management System for the Institute of Computer Studies
         </li>
         <li>
             <a href="https://github.com/Danspotnytool/Colegio-De-Montalban-Student-to-Student-Evaluation-System">Danspotnytool/Colegio-De-Montalban-Student-to-Student-Evaluation-System</a>
-            <p>Colegio de Montalban Student-to-Student Evaluation System</p>
+            <br />
+            Colegio de Montalban Student-to-Student Evaluation System
         </li>
     </ul>
 	<br />
