@@ -19,7 +19,6 @@
         <li>Field:<br /><b>Information Technology</b></li>
         <br />
         <li>Specialization:<br /><b>Web Development</b></li>
-        <br />
     </ul>
 	<br />
 	<br />
@@ -45,13 +44,8 @@
         </li>
     </ul>
 	<br />
-    <table width="100%">
-        <tr>
-            <td align="center"><b>veni</b></td>
-            <td align="center"><b>vidi</b></td>
-            <td align="center"><b>vici</b></td>
-        </tr>
-    </table>
+	<br />
+    <p align="center"><b>veni</b> <b>vidi</b> <b>vici</b></p>
 	<br />
 	<img width="100%" src="https://github-profile-trophy.vercel.app/?username=Danspotnytool&no-bg=true&no-frame=true&theme=darkhub" align="center"/>
 </div>
