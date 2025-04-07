@@ -23,30 +23,30 @@
     </ul>
 	<br />
 	<br />
-	<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Danspotnytool&layout=pie&hide_border=true&langs_count=5&theme=transparent&title_color=539BF5&text_color=ADBAC7&text_bold=true" align=right />
+	<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=danieljohnbyns&layout=pie&hide_border=true&langs_count=5&theme=transparent&title_color=539BF5&text_color=ADBAC7&text_bold=true" align=right />
 	<img src="./Assets/Repositories.png" width="50%" />
 	<br />
 	<br />
     <ul>
         <li>
-            <a href="https://github.com/Danspotnytool/tapang-music">Danspotnytool/tapang-music</a>
+            <a href="https://github.com/danieljohnbyns/tapang-music">danieljohnbyns/tapang-music</a>
             <br />
             Music Application Project for my Midterms Exam
         </li>
         <li>
-            <a href="https://github.com/Danspotnytool/CdMSMS-ICS">Danspotnytool/CdMSMS-ICS</a>
+            <a href="https://github.com/danieljohnbyns/CdMSMS-ICS">danieljohnbyns/CdMSMS-ICS</a>
             <br />
             Colegio de Montalban Schedule Management System for the Institute of Computer Studies
         </li>
         <li>
-            <a href="https://github.com/Danspotnytool/Colegio-De-Montalban-Student-to-Student-Evaluation-System">Danspotnytool/Colegio-De-Montalban-Student-to-Student-Evaluation-System</a>
+            <a href="https://github.com/danieljohnbyns/Colegio-De-Montalban-Student-to-Student-Evaluation-System">danieljohnbyns/Colegio-De-Montalban-Student-to-Student-Evaluation-System</a>
             <br />
             Colegio de Montalban Student-to-Student Evaluation System
         </li>
     </ul>
 	<br />
 	<br />
-	<img width="100%" src="https://github-profile-trophy.vercel.app/?username=Danspotnytool&no-bg=true&no-frame=true&theme=darkhub" align="center"/>
+	<img width="100%" src="https://github-profile-trophy.vercel.app/?username=danieljohnbyns&no-bg=true&no-frame=true&theme=darkhub" align="center"/>
 	<br />
     <p width="100%" align="center">
         <b>veni</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
