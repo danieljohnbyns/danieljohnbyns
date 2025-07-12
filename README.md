@@ -6,21 +6,36 @@
 	<img src="./Assets/About Me.png" width="50%" />
 	<br />
 	<br />
-    <ul>
-        <li>Name:<br /><b>Daniel John Baynosa</b></li>
-        <br />
-        <li>From:<br /><b>Philippines</b></li>
-        <br />
-        <li>Age:<br /><b>21</b></li>
-        <br />
-        <li>Contact:<br /><b>+63 960 331 9317</b> / <b>danieljohnbyns@gmail.com</b></li>
-        <br />
-        <li>Occupation:<br /><b>Student</b></li>
-        <br />
-        <li>Field:<br /><b>Information Technology</b></li>
-        <br />
-        <li>Specialization:<br /><b>Web Development</b></li>
-    </ul>
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>Daniel John</td>
+        </tr>
+        <tr>
+            <td>From</td>
+            <td>Philippines</td>
+        </tr>
+        <tr>
+            <td>Age</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>Contact</td>
+            <td>+63 960 331 9317 / <a href="mailto:danieljohnbyns@gmail.com">danieljohnbyns@gmail.com</a></td>
+        </tr>
+        <tr>
+            <td>Occupation</td>
+            <td>Freelance</td>
+        </tr>
+        <tr>
+            <td>Field</td>
+            <td>Information Technology</td>
+        </tr>
+        <tr>
+            <td>Specialization</td>
+            <td>Web Development</td>
+        </tr>
+    </table>
 	<br />
 	<br />
 	<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=danieljohnbyns&layout=pie&hide_border=true&langs_count=5&theme=transparent&title_color=539BF5&text_color=ADBAC7&text_bold=true" align=right />
